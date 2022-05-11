@@ -1,0 +1,11 @@
+main:
+  - title: "About"
+    url: /about/
+  - title: "Music"
+    url: /music/
+  - title: "Projects"
+    url : "/projects/"
+  - title: "Selfhosted"
+    url: "/selfhosted/"
+  - title: "Contact"
+    url: /contact/

@@ -1,0 +1,9 @@
+# Ignore things that are still WIP
+*/**/_WIP
+
+# Jekyll things
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+build

@@ -1,0 +1,90 @@
+### Jekyll config
+# Following the order of minimal mistakes documentation
+# https://mmistakes.github.io/minimal-mistakes/docs/configuration/
+
+locale: "en"
+title: dbarenholz
+title_separator: "•"
+# subtitle: "short tagline that appears below the title"
+name: Daniël Barenholz
+description: >- # this means to ignore newlines until "email:"
+  My personal website. Enjoy your stay!
+url: "https://www.dbarenholz.com"
+baseurl: ""
+repository: "dbarenholz/site"
+# head_scripts
+# logo: "/assets/images/triangle.png"
+masthead_title: "dbarenholz"
+breadcrumbs: false
+date_format: "%Y-%m-%d"
+atom_feed:
+  hide: true
+search: false
+twitter:
+  username: dbarenholz
+github_username:  dbarenholz
+author:
+  name     : "Daniël Barenholz"
+  avatar   : "/_assets/images/photo_small.jpg"
+  bio      : "Music lover. Language geek. Process mining enthusiast. MS @ TU/e."
+  location : "TU/e @ Eindhoven"
+  links:
+    - label: "Website"
+      icon: "fas fa-globe"
+      url: "https://www.dbarenholz.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/dbarenholz"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/dbarenholz/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/dbarenholz"
+include: ["_pages", "_assets", "_projects"]
+markdown: kramdown
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
+      show_date: true
+      share: false
+      related: false
+      toc: true
+      toc_sticky: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      toc: true
+      toc_sticky: true
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: archive
+      author_profile: false
+      share: false
+
+collections:
+  projects:
+    output: true
+    permalink: "/:collection/:path/" # ignore error, this is the documentation
+
+timezone: Europe/Amsterdam
+plugins:
+  - jekyll-include-cache
+email: spam@dbarenholz.com
+destination: build
