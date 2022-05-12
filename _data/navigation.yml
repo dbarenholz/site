@@ -18,3 +18,7 @@ main:
 music_projects_back:
   - title: "<- go back"
     url: "/projects/music/"
+
+code_projects_back:
+  - title: "<- go back"
+    url: "/projects/code/"
