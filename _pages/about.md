@@ -13,7 +13,7 @@ I am an innovation-driven, hardworking person, always looking to improve. It doe
 
 **Previous**:
 
-- I have done an internship at the [Process Analytics](https://pa.win.tue.nl/) group, where I looked at process discovery and probabilistic models, and how to (possibly) combine those two fields. This was my first "real" research experience, so you may find the quality lacking. You can download the report [here]({{ site.url }}/assets/docs/internship/report.pdf).
+- I have done an internship at the [Process Analytics](https://pa.win.tue.nl/) group, where I looked at process discovery and probabilistic models, and how to (possibly) combine those two fields. This was my first "real" research experience, so you may find the quality lacking. You can download the report [here]({{ site.url }}/_assets/docs/internship/report.pdf).
 
 - I volunteered at [Together with Classical](https://www.togetherwithclassical.org/), a charity, founded by [Tiffany Poon](https://www.tiffanypoon.com/), arguably my favourite classical pianist. It stands for bringing classical music closer to people, which is something that I, too, really care about.
 
@@ -31,4 +31,4 @@ I am an innovation-driven, hardworking person, always looking to improve. It doe
 
 **Previous**:
 
-- In 2019 I obtained a Bachelors degree in Computer Science at the Eindhoven University of Technology. During said bachelor, I was enrolled in the Honors Programme doing competitive programming and problem solving (find my old cheat sheet [here]({{ site.url }}/assets/docs/honors/cheatsheet.docx)). I very thoroughly enjoyed the seminar part of the Honors Programme, where students had to present a particular topic of choice. My topic was _subset dynamic programming_; the slides I used when presenting are available [here]({{ site.url }}/assets/docs/honors/slides.pptx), and the complete report is [here]({{ site.url }}/assets/docs/honors/report.pdf). _Please note that if you'd like to reuse the slides, that I ask you to provide a link to my site as credits._
+- In 2019 I obtained a Bachelors degree in Computer Science at the Eindhoven University of Technology. During said bachelor, I was enrolled in the Honors Programme doing competitive programming and problem solving (find my old cheat sheet [here]({{ site.url }}/_assets/docs/honors/cheatsheet.docx)). I very thoroughly enjoyed the seminar part of the Honors Programme, where students had to present a particular topic of choice. My topic was _subset dynamic programming_; the slides I used when presenting are available [here]({{ site.url }}/_assets/docs/honors/slides.pptx), and the complete report is [here]({{ site.url }}/_assets/docs/honors/report.pdf). _Please note that if you'd like to reuse the slides, that I ask you to provide a link to my site as credits._
