@@ -9,11 +9,11 @@ I am an innovation-driven, hardworking person, always looking to improve. It doe
 
 **Current**:
 
-- I am currently doing my graduation project at [Vanderlande](https://www.vanderlande.com/). I can't get into too much detail, but rest assured that it's really cool! When done, you can download the thesis [here](#).
-
-- I am in the final stages of my internship at the [Process Analytics](https://pa.win.tue.nl/) group, where I'm looking at process discovery and probabilistic models, and how to (possibly) combine those two fields. When done, you can download the report [here](#).
+- I am currently doing my graduation project at [Vanderlande](https://www.vanderlande.com/). I can't get into too much detail, but rest assured that it's really cool! When done (and publicly available), you can download the thesis [here](#).
 
 **Previous**:
+
+- I have done an internship at the [Process Analytics](https://pa.win.tue.nl/) group, where I looked at process discovery and probabilistic models, and how to (possibly) combine those two fields. This was my first "real" research experience, so you may find the quality lacking. You can download the report [here]({{ site.url }}/assets/docs/internship/report.pdf).
 
 - I volunteered at [Together with Classical](https://www.togetherwithclassical.org/), a charity, founded by [Tiffany Poon](https://www.tiffanypoon.com/), arguably my favourite classical pianist. It stands for bringing classical music closer to people, which is something that I, too, really care about.
 
@@ -21,14 +21,14 @@ I am an innovation-driven, hardworking person, always looking to improve. It doe
 
 - In the academic year 2017-2018 I was the secretary of my local Japanese culture association [JCES Kinjin](https://kinjin.nl/). This was a load of fun, and I can highly recommend anyone do a board year at your favourite culture/study/sport association.
 
-- I worked on a front-end for a company’s internal inventory management system using [Kendo UI](https://www.telerik.com/kendo-ui). As it is internal, I sadly can't share the results. If you're curious about my coding skills, check out my [github](https://github.com/dbarenholz).
+- I worked on a front-end for a company’s internal inventory management system using [Kendo UI](https://www.telerik.com/kendo-ui). As it is internal, I sadly can't share the results. If you're curious about my coding skills, check out my [github](https://github.com/dbarenholz) instead.
 
 ## Education
 
 **Current**:
 
-- I am currently pursuing a masters degree titled **Data Science in Engineering** at Eindhoven University of Technology. During my masters my focus lays on **process mining** and **deep generative models**, two topics I find highly interesting. If you're curious about either of these topics (or anything else computer science related), don't hesite to [contact](https://dbarenholz.com/contact) me!
+- I am currently pursuing a masters degree titled **Data Science in Engineering** at Eindhoven University of Technology. During my masters my focus lays on **process mining** and **deep generative models**, two topics I find highly interesting. If you're curious about either of these topics (or anything else computer science related), don't hesite to [contact]({{ site.url }}/contact) me!
 
 **Previous**:
 
-- In 2019 I obtained a Bachelors degree in Computer Science at the Eindhoven University of Technology. During said bachelor, I was enrolled in the Honors Programme doing competitive programming and problem solving. I very thoroughly enjoyed the seminar part of the Honors Programme, where students had to present a particular topic of choice. My topic was _subset dynamic programming_. Curious? [Contact](https://dbarenholz.com/contact) me!
+- In 2019 I obtained a Bachelors degree in Computer Science at the Eindhoven University of Technology. During said bachelor, I was enrolled in the Honors Programme doing competitive programming and problem solving (find my old cheat sheet [here]({{ site.url }}/assets/docs/honors/cheatsheet.docx)). I very thoroughly enjoyed the seminar part of the Honors Programme, where students had to present a particular topic of choice. My topic was _subset dynamic programming_; the slides I used when presenting are available [here]({{ site.url }}/assets/docs/honors/slides.pptx), and the complete report is [here]({{ site.url }}/assets/docs/honors/report.pdf). _Please note that if you'd like to reuse the slides, that I ask you to provide a link to my site as credits._
