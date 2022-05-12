@@ -13,7 +13,7 @@ I am an innovation-driven, hardworking person, always looking to improve. It doe
 
 **Previous**:
 
-- I have done an internship at the [Process Analytics](https://pa.win.tue.nl/) group, where I looked at process discovery and probabilistic models, and how to (possibly) combine those two fields. This was my first "real" research experience, so you may find the quality lacking. You can download the report [here]({{ site.url }}/_assets/docs/internship/report.pdf).
+- I have done an internship at the [Process Analytics](https://pa.win.tue.nl/) group, where I looked at process discovery and probabilistic models, and how to (possibly) combine those two fields. This was my first "real" research experience, so you may find the quality lacking. You can download the report [here]({{ site.url }}/_assets/docs/internship_pa/report.pdf).
 
 - I volunteered at [Together with Classical](https://www.togetherwithclassical.org/), a charity, founded by [Tiffany Poon](https://www.tiffanypoon.com/), arguably my favourite classical pianist. It stands for bringing classical music closer to people, which is something that I, too, really care about.
 
