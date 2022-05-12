@@ -8,3 +8,4 @@ _Work in progress: I'll create a custom homepage for projects when I have some m
 
 - [Music Projects]({{ site.url }}/projects/music/)
 - [Coding Projects]({{ site.url }}/projects/code/)
+- [Research Projects]({{ site.url }}/projects/research/)

@@ -77,7 +77,7 @@ defaults:
       layout: archive
       author_profile: false
       share: false
-      sidebar: 
+      sidebar:
         nav: "music_projects_back"
   # _projects_code
   - scope:
@@ -87,8 +87,19 @@ defaults:
       layout: archive
       author_profile: false
       share: false
-      sidebar: 
+      sidebar:
         nav: "code_projects_back"
+  # _projects_research
+  - scope:
+      path: ""
+      type: projects_research
+    values:
+      layout: archive
+      author_profile: false
+      share: false
+      mathjax: true
+      sidebar:
+        nav: "research_projects_back"
 
 collections:
   projects_music:
@@ -97,6 +108,9 @@ collections:
   projects_code:
     output: true
     permalink: "/projects/code/:name/" # ignore error, this is the documentation
+  projects_research:
+    output: true
+    permalink: "/projects/research/:name/" # ignore error, this is the documentation
 
 timezone: Europe/Amsterdam
 plugins:

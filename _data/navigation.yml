@@ -22,3 +22,7 @@ music_projects_back:
 code_projects_back:
   - title: "<- go back"
     url: "/projects/code/"
+
+research_projects_back:
+  - title: "<- go back"
+    url: "/projects/code/"
