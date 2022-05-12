@@ -1,11 +1,20 @@
 main:
   - title: "About"
     url: /about/
+    description: "Learn more about me."
   - title: "Music"
     url: /music/
+    description: "Check my music related stuff."
   - title: "Projects"
-    url : "/projects/"
+    url: "/projects/"
+    description: "Find what I do in my free time."
   - title: "Selfhosted"
     url: "/selfhosted/"
+    description: "Did you know I host things?"
   - title: "Contact"
     url: /contact/
+    description: "Come say hi!"
+
+music_projects_back:
+  - title: "<- go back"
+    url: "/projects/music/"

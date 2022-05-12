@@ -17,31 +17,7 @@ As you can guess from the previous sentence, I very much enjoy the lessons.
 ## Compositions
 
 When I have time, I compose my own piano music. If/when I'm happy with the recording, I will upload it to Youtube.
-For now, no recordings yet. If you want to get the latest updates on my music, the best place to do so is following my [Twitter](https://twitter.com/dbarenholz).
-
-### Plans
-
-I have various plans for music that I want to create. You can read them here!
-
-- An album titled _travel_, consisting of three (3) pieces.
-  I envision this as a huge project, where I (or my good friend [Jakub](#)) film music videos that are taken when, well, travelling.
-  The pieces themselves are:
-
-  1. **Departure**.
-     This piece attempts to capture the feeling of "stress" or "the unknown",
-     but also the "excitement" you have when starting something new.
-     You are departing on a new journey, not knowing how long it will take, or what you may find on the way. It's an adventure!
-  2. **Commute**.
-     This piece attempts to capture the "Hey, are we there yet?" you might hear when travelling with children.
-     I see the commute as something relatively predictable, but sometimes there may be surprises that you then have to deal with.
-  3. **Arrival**.
-     Finally, you arrive at your destination, whichever, whatever, or wherever that may be.
-     The piece attempts to capture the feeling of "completeness" and "satisfaction", but
-     also possible "tiredness" from the journey you have undertaken, and "sadness" because the journey itself is over.
-
-- An album titled _Sokkyou_, the romanized version of the Japanese word [_即興_](https://jisho.org/word/%E5%8D%B3%E8%88%88) meaning _improvisation_, _impromptu_. It will consist of all pieces that I recorded while improvising. These pieces are commonly around one (1) to two (2) minutes in length. Right now, there are five (5) <em>Sokkyou</em>s.
-
-### Completed pieces
+For now, there are no public recordings yet. If you want to get the latest updates on my music, the best place to do so is following my [Twitter](https://twitter.com/dbarenholz).
 
 1. **At a glance**. (_no link yet_)
    A piece written in October 2015 when I was seventeen (17) years old.
@@ -58,6 +34,8 @@ I have various plans for music that I want to create. You can read them here!
    It's a fairly simple piece, written when I couldn't play piano that well.
    Since it has been quite a while since I composed this, I don't have any backstory to it since I forgot.
 
+See also the [projects]({{ site.url }}/projects/music/) page for my music related projects.
+
 ## Repertoire
 
 Below is a list of pieces that I feel somewhat comfortable performing, in order of when I learned to play them.
@@ -68,15 +46,6 @@ If I have a recording of a particular piece available, you can click on the name
 - Ludovico Einaudi - Nuvole Bianche
 - Yann Tiersen - Comptine d'un autre été
 - Yiruma - River flows in you
-
-## Previous Projects
-
-Head over to the [projects](/_projects/) page and filter on the music tag to see some projects related to music.
-
-Also, some projects I've been involved with can be found in this YouTube playlist!
-Can you find me in these videos?
-
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLn1-0R41vSciVAR15cyIOuScARBfWeY21" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Classical Bucketlist
 

@@ -22,12 +22,12 @@ atom_feed:
 search: false
 twitter:
   username: dbarenholz
-github_username:  dbarenholz
+github_username: dbarenholz
 author:
-  name     : "Daniël Barenholz"
-  avatar   : "/_assets/images/photo_small.jpg"
-  bio      : "Music lover. Language geek. Process mining enthusiast. MS @ TU/e."
-  location : "TU/e @ Eindhoven"
+  name: "Daniël Barenholz"
+  avatar: "/_assets/images/photo_small.jpg"
+  bio: "Music lover. Language geek. Process mining enthusiast. MS @ TU/e."
+  location: "TU/e @ Eindhoven"
   links:
     - label: "Website"
       icon: "fas fa-globe"
@@ -69,19 +69,21 @@ defaults:
       author_profile: true
       toc: true
       toc_sticky: true
-  # _projects
+  # _projects_music
   - scope:
       path: ""
-      type: projects
+      type: projects_music
     values:
       layout: archive
       author_profile: false
       share: false
+      sidebar: 
+        nav: "music_projects_back"
 
 collections:
-  projects:
+  projects_music:
     output: true
-    permalink: "/:collection/:path/" # ignore error, this is the documentation
+    permalink: "/projects/music/:name/" # ignore error, this is the documentation
 
 timezone: Europe/Amsterdam
 plugins:
