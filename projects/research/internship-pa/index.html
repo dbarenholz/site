@@ -1,0 +1,263 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Probabilistic Models &amp; Process Discovery • dbarenholz</title>
+<meta name="description" content="Results of an internship at the Process Analytics group in Eindhoven.">
+
+
+  <meta name="author" content="Daniël Barenholz">
+  
+  <meta property="article:author" content="Daniël Barenholz">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en">
+<meta property="og:site_name" content="dbarenholz">
+<meta property="og:title" content="Probabilistic Models &amp; Process Discovery">
+<meta property="og:url" content="https://www.dbarenholz.com/projects/research/internship-pa/">
+
+
+  <meta property="og:description" content="Results of an internship at the Process Analytics group in Eindhoven.">
+
+
+
+
+
+  <meta name="twitter:site" content="@dbarenholz">
+  <meta name="twitter:title" content="Probabilistic Models &amp; Process Discovery">
+  <meta name="twitter:description" content="Results of an internship at the Process Analytics group in Eindhoven.">
+  <meta name="twitter:url" content="https://www.dbarenholz.com/projects/research/internship-pa/">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+  <meta property="article:published_time" content="2022-05-14T13:27:15+02:00">
+
+
+
+
+
+
+<link rel="canonical" href="https://www.dbarenholz.com/projects/research/internship-pa/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Daniël Barenholz",
+      "url": "https://www.dbarenholz.com/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <style>
+    .author__avatar img {
+        border: none !important;
+        border-radius: none !important;
+    }
+</style>
+  </head>
+
+  <body class="layout--archive">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          dbarenholz
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/" title="Learn more about me.">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/music/" title="Check my music related stuff.">Music</a>
+            </li><li class="masthead__menu-item">
+              <a href="/projects/" title="Find what I do in my free time.">Projects</a>
+            </li><li class="masthead__menu-item">
+              <a href="/selfhosted/" title="Did you know I host things?">Selfhosted</a>
+            </li><li class="masthead__menu-item">
+              <a href="/contact/" title="Come say hi!">Contact</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <a href="/projects/code/"><span class="nav__sub-title"><- go back</span></a>
+        
+
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <div class="archive">
+    
+      <h1 id="page-title" class="page__title">Probabilistic Models & Process Discovery</h1>
+    
+    <p>Read the complete report <a href="https://www.dbarenholz.com/_assets/docs/internship_pa/report.pdf">here</a>.</p>
+
+<h2 id="main-idea">Main Idea</h2>
+
+<p>Process discovery (PD) in process mining is the task of transforming an event log into an interpretable model, usually a Petri net. Traditionally this transformation is achieved in an algorithmic sense, for instance using the Alpha algorithm. The event log, which is the input data to the algorithm that solves PD, is noisy by definition and it stems from some unknown probability distribution \(p^*\). The problem with current algorithmic approaches is that they have a fundamental short-coming: there are a priori assumptions on said data, for instance that infrequent behaviour is irrelevant to the overall process. Using a machine learning based approach attempts to generalize away from such assumptions, as done in the <a href="https://research.tue.nl/en/studentTheses/process-discovery-using-machine-learning">thesis by D. Sommers</a> where Graph Convolutional Networks (GCNs) were used to solve the PD problem. GCNs, however, do not consider learning \(p^*\), even though the probability distribution can be used to optimally solve classification and prediction tasks. As such, in this internship we want to investigate if using probabilistic models, which learn the distribution of the data, is useful in solving the process discovery problem. Ideally we want to have an explainable model, but we will settle with less explainable if in return we get superior performance.</p>
+
+  </div>
+</div>
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2022 Daniël Barenholz. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+
+<!-- Required for Mathjax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    jax: ["input/TeX", "output/HTML-CSS"],
+    tex2jax: {
+      inlineMath: [ ['$', '$'], ["\\(", "\\)"] ],
+      displayMath: [ ['$$', '$$'], ["\\[", "\\]"] ],
+      processEscapes: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+    //,
+    //displayAlign: "left",
+    //displayIndent: "2em"
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML">
+</script>
+
+
+
+  </body>
+</html>
