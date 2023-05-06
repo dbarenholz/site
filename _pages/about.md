@@ -13,8 +13,8 @@ _Otherwise a link to my site suffices._
 
 ## Current position
 
-- I am currently doing a PhD at [Utrecht University](#) on the interplay between processes and data.
-  See my [research](#) page for more information about the topic, my publications, and my teaching tasks.
+- I am currently doing a PhD at [Utrecht University](https://www.uu.nl/staff/dbarenholz) on the interplay between processes and data.
+  See my [research]({{ site.url }}/research) page for more information about the topic, my publications, and my teaching tasks.
 
 ## My Education
 

@@ -10,7 +10,7 @@
 
 
 <div class="grid flex">
-  {% for note in site.notes %}
+  {% for note in site.notes reversed%}
      <div class="notes-item {{ note.tag }}">
         <a class="notes-link" data-toggle="modal" href="{{ site.url }}/{{ note.url }}">
           <h4>{{ note.title }}</h4>

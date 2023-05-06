@@ -1,0 +1,22 @@
+---
+title: "Knowledge Graphs for Improving Robot Operations in Logistics"
+excerpt: "This is my master thesis, done at Vanderlande."
+tag: research
+---
+
+Read the complete thesis [here]({{ site.url }}/_assets/docs/thesis/thesis.pdf).
+<br />
+Find this item on [google scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bFXkeeQAAAAJ&citation_for_view=bFXkeeQAAAAJ:u-x6o8ySG0sC), and on [research.tue.nl](https://research.tue.nl/en/studentTheses/knowledge-graphs-for-improving-robot-operations-in-logistics).
+
+## Main Idea
+
+[Vanderlande](https://www.vanderlande.com/) is a company providing future-proof logistic process automation in, amongst others, warehousing for the food segment.
+This segment requires high availability and diversity of products with a limited workforce.
+To combat aforementioned problems within the food segment, Vanderlande has developed the [STOREPICK](https://www.vanderlande.com/evolutions/storepick/) evolution: a robotised, end-to-end Automated Case-Picking (ACP) warehousing solution, consisting of various modules, each with their own dataset (s).
+This thesis is the first data-driven approach to making Vanderlande's ACP solution more robust against errors.
+Part of the STOREPICK evolution is a palletizer cell, where a robot arm grabs and places cases on top of a pallet.
+We call this process (automated) palletisation.
+Notice how the palletisation process occurs in a physical setting.
+We implement a proof of concept data integration pipeline to construct a knowledge graph describing the physical palletisation process from the various available datasets, and evaluate which questions (about the palletisation process) can be answered reliably, either by querying it or using visual analytics.
+During this exploration on the usecase of knowledge graphs for modelling both a physical setting in tandem with its process for the purpose of detecting machine faults, we find that there is a critical data quality issue with respect to the recorded Z axis values of cases on pallets.
+We discuss the consequences of the data quality issue, and provide insights into other potential usecases of the graph as data model, comparing it to a more traditional tabular data format.
