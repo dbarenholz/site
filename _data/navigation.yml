@@ -1,28 +1,10 @@
 main:
   - title: "About"
     url: /about/
-    description: "Learn more about me."
-  - title: "Music"
-    url: /music/
-    description: "Check my music related stuff."
-  - title: "Projects"
-    url: "/projects/"
-    description: "Find what I do in my free time."
-  - title: "Selfhosted"
-    url: "/selfhosted/"
-    description: "Did you know I host things?"
+    description: "A more professional introduction to who I am."
+  - title: "Notes"
+    url: /notes/
+    description: "A collection of notes that I've made."
   - title: "Contact"
     url: /contact/
     description: "Come say hi!"
-
-music_projects_back:
-  - title: "<- go back"
-    url: "/projects/music/"
-
-code_projects_back:
-  - title: "<- go back"
-    url: "/projects/code/"
-
-research_projects_back:
-  - title: "<- go back"
-    url: "/projects/code/"

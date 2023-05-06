@@ -19,19 +19,18 @@ breadcrumbs: false
 date_format: "%Y-%m-%d"
 atom_feed:
   hide: true
-search: false
+search: true
 twitter:
   username: dbarenholz
 github_username: dbarenholz
 author:
   name: "Daniël Barenholz"
   avatar: "/_assets/images/photo_small.jpg"
-  bio: "Music lover. Language geek. Process mining enthusiast. MS @ TU/e."
-  location: "TU/e @ Eindhoven"
+  bio: "Music lover. Language geek. Process mining enthusiast. PhD @ UU."
   links:
-    - label: "Website"
-      icon: "fas fa-globe"
-      url: "https://www.dbarenholz.com/"
+    - label: "UU.nl"
+      icon: "fas fa-fw fa-map-marker-alt"
+      url: "https://www.uu.nl/staff/dbarenholz"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/dbarenholz"
@@ -41,10 +40,10 @@ author:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/dbarenholz"
-include: ["_pages", "_assets", "_projects"]
+include: ["_pages", "_assets", "_notes"]
 markdown: kramdown
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-minimal_mistakes_skin: "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 defaults:
   # _posts
   - scope:
@@ -69,48 +68,19 @@ defaults:
       author_profile: true
       toc: true
       toc_sticky: true
-  # _projects_music
+  # _notes
   - scope:
       path: ""
-      type: projects_music
+      type: notes
     values:
       layout: archive
-      author_profile: false
+      author_profile: true
       share: false
-      sidebar:
-        nav: "music_projects_back"
-  # _projects_code
-  - scope:
-      path: ""
-      type: projects_code
-    values:
-      layout: archive
-      author_profile: false
-      share: false
-      sidebar:
-        nav: "code_projects_back"
-  # _projects_research
-  - scope:
-      path: ""
-      type: projects_research
-    values:
-      layout: archive
-      author_profile: false
-      share: false
-      mathjax: true
-      sidebar:
-        nav: "research_projects_back"
 
 collections:
-  projects_music:
+  notes:
     output: true
-    permalink: "/projects/music/:name/" # ignore error, this is the documentation
-  projects_code:
-    output: true
-    permalink: "/projects/code/:name/" # ignore error, this is the documentation
-  projects_research:
-    output: true
-    permalink: "/projects/research/:name/" # ignore error, this is the documentation
+    permalink: "/:collection/:path"
 
 timezone: Europe/Amsterdam
 plugins:
