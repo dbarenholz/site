@@ -9,7 +9,7 @@ classes: wide
 
 See [google scholar](https://scholar.google.com/citations?user=bFXkeeQAAAAJ&hl=en&inst=7240083048524121927&oi=ao) for a more up-to-date version.
 
-1. [On the Reconstructability and Rediscoverability of Typed Jackson Nets]({{ site.url }}/notes/research/on-the-reconstructability-and-rediscoverability-of-typed-jackson-nets).
+1. [On the Reconstructability and Rediscoverability of Typed Jackson Nets]({{ site.url }}/research/2023/01/27/on-the-reconstructability-and-rediscoverability-of-typed-jackson-nets.html).
 
 
 ## Research Topic

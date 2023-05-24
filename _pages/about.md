@@ -27,21 +27,21 @@ _Otherwise a link to my site suffices._
   During my bachelors I did not focus on a particular topic; in stead I took a variety of different courses to broaden my horizon.
   I was a teaching assistant for various courses during my bachelor.
 
-- **Extracurricular: Honors Programme**: During my bachelor I was enrolled in the _honors programme_ doing competetive programming and problem solving.
+- **Extracurricular: Honors Programme**: During my bachelor I was enrolled in the _honors programme_ doing competitive programming and problem solving.
   My (rather old) cheatsheet is [here]({{ site.url }}/_assets/docs/honors/cheatsheet.docx).
-  As part of the honors programme I gave a talk on \_subset dynamic proggramming_.
-  The slides are [here]({{ site.url }}/\_assets/docs/honors/slides.pptx), and the report is [here]({{ site.url }}/\_assets/docs/honors/report.pdf).
+  As part of the honors programme I gave a talk on _subset dynamic proggramming_.
+  The slides are [here]({{ site.url }}/_assets/docs/honors/slides.pptx), and the report is [here]({{ site.url }}/_assets/docs/honors/report.pdf).
 
 ## Experience
 
 - I have done my graduation project at [Vanderlande](https://www.vanderlande.com/).
   At Vanderlande I worked on improving their _STOREPICK_ evolution.
   The project was exploratory in nature: it was unclear if a data-driven approach to improvement was possible.
-  The (public) thesis can be found [here]({{ site.url }}/\_assets/docs/barenholz - master thesis.pdf).
+  The (public) thesis can be found [here]({{ site.url }}/_assets/docs/thesis/thesis.pdf).
 
 - I have done my internship at the [Process Analytics](https://pa.win.tue.nl/) group in Eindhoven.
   During the internship I looked at how we could potentially combine the fields of process discovery and probabilistic models.
-  The (public) report can be found [here]({{ site.url }}/\_assets/docs/internship_pa/report.pdf).
+  The (public) report can be found [here]({{ site.url }}/_assets/docs/internship_pa/report.pdf).
 
 - I have worked on an undisclosed company's inventory management system using [Kendo UI](https://www.telerik.com/kendo-ui) and PHP.
   During my time there, I was mostly bughunting the existing codebase and fixing errors.
