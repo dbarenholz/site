@@ -1,7 +1,7 @@
 ---
 title: "Probabilistic models in process discovery"
 excerpt: "Results of an internship at the Process Analytics group in Eindhoven."
-tag: research
+category: Research
 ---
 
 Read the complete report [here]({{ site.url }}/_assets/docs/internship_pa/report.pdf).

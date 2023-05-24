@@ -50,15 +50,15 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      layout: archive
       author_profile: true
       read_time: false
       comments: false
-      show_date: true
+      show_date: false
       share: false
       related: false
-      toc: true
-      toc_sticky: true
+      # toc: false
+      # toc_sticky: false
   # _pages
   - scope:
       path: ""
@@ -69,18 +69,18 @@ defaults:
       toc: true
       toc_sticky: true
   # _notes
-  - scope:
-      path: ""
-      type: notes
-    values:
-      layout: archive
-      author_profile: true
-      share: false
+  # - scope:
+  #     path: ""
+  #     type: notes
+  #   values:
+  #     layout: archive
+  #     author_profile: true
+  #     share: false
 
-collections:
-  notes:
-    output: true
-    permalink: "/:collection/:path"
+# collections:
+#   notes:
+#     output: true
+#     permalink: "/:collection/:path"
 
 timezone: Europe/Amsterdam
 plugins:

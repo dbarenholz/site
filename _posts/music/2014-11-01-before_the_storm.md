@@ -1,7 +1,7 @@
 ---
 title: "Before the Storm"
 excerpt: "A piece written in *November 2014* when I was 16 years old."
-tag: music
+category: Music
 ---
 
 > - <u>Composition</u>: Done. I have a _very_ low quality recording from 2014.

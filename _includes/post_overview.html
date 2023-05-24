@@ -1,0 +1,164 @@
+
+<!-- Buttons to filter -->
+<div class="button-group filter-button-group justify-content-center">
+    {% for category in site.categories %}
+        <a class="btn btn-sm btn-primary active" data-filter="{{ category[0] }}">{{ category[0] }}</a>
+    {% endfor %}
+</div>
+
+<!-- Grid -->
+<div class="grid flex">
+    {% for post in site.posts %}
+        <div class="post-item post-shown {{ post.category }}">
+            <a class="post-link" href="{{ post.url }}">
+                <h4>{{ post.title }}</h4>
+            </a>
+            <p> {{ post.excerpt | markdownify }}</p>
+        </div>
+    {% endfor %}
+  <p id="emptygrid" style="display:none">You have filtered out all posts. It is empty now.</p>
+</div>
+
+<script>
+    let filterValues = []
+    let elems = document.querySelectorAll('.filter-button-group a.active');
+    for (const elem of elems)
+        filterValues.push(elem.getAttribute("data-filter"))
+
+    const buttons = document.querySelectorAll('.button-group a.btn')
+    for (const item of buttons) {
+        item.addEventListener('click', (evt) => {
+            const value = item.getAttribute("data-filter")
+            updateVisibilityFor(value)
+
+            if (filterValues.includes(value)) {
+                filterValues.splice( filterValues.indexOf(value), 1 )
+                item.classList.toggle('active');
+                item.classList.toggle('inactive');
+            } else {
+                filterValues.push(value)
+                item.classList.toggle('active');
+                item.classList.toggle('inactive');
+            }
+
+            checkEmptyGrid()
+        })
+    }
+
+    function updateVisibilityFor(value) {
+        const toggleMe = document.querySelectorAll(`.grid > div.${value}`)
+        toggleMe.forEach((item) => {
+            if (item.classList.contains('post-shown')) {
+                setTimeout(() => {item.style.display = 'none'}, 200)
+            }
+            if (item.classList.contains('post-hidden')) {
+                item.style.display = 'block'
+            }
+            item.classList.toggle('post-shown')
+            item.classList.toggle('post-hidden')
+        })
+    }
+
+    function checkEmptyGrid() {
+        const items = document.querySelectorAll(`.grid > div`)
+        const text = document.querySelector('#emptygrid')
+
+        let found = false;
+        for (const item of items) {
+            if (item.classList.contains('post-shown')) {
+                found = true
+                break
+            }
+        }
+
+        text.style.display = !found ? 'unset' : 'none'
+    }
+</script>
+
+<style>
+    /* Styles for grid elements */
+    .flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-content: flex-start;
+        flex-direction: row;
+        align-items: flex-start;
+        padding-left: 1em;
+    }
+    .post-item {
+        max-width: 12em;
+        -webkit-transition: all .2s ease;
+        -moz-transition: all .2s ease;
+        transition: all .2s ease;
+    }
+
+    .post-hidden {
+        animation: hide .2s;
+        animation-fill-mode: forwards;
+        display: block;
+    }
+
+    .post-shown {
+        animation: show .2s;
+        display: block;
+    }
+
+    @keyframes show {
+        0% {
+            opacity: 0;
+            transform: scale(0);
+            -webkit-transform: scale(0);
+            -moz-transform: scale(0);
+        }
+
+        100% {
+            opacity: 1;
+            transform: scale(1);
+            -webkit-transform: scale(1);
+            -moz-transform: scale(1);
+        }
+    }
+
+    @keyframes hide {
+        0% {
+            display: block;
+            opacity: 1;
+            transform: scale(1);
+            -webkit-transform: scale(1);
+            -moz-transform: scale(1);
+        }
+        99% {
+            display: block;
+            opacity: 0;
+            transform: scale(0);
+            -webkit-transform: scale(0);
+            -moz-transform: scale(0);
+        }
+        100% {
+            display: none;
+            opacity: 0;
+            transform: scale(0);
+            -webkit-transform: scale(0);
+            -moz-transform: scale(0);
+        }
+    }
+
+    #emptygrid {
+        display: unset;
+        font-size: medium;
+        color: slategray;
+    }
+
+    /* Styles for the buttons */
+    .filter-button-group > a.active {
+        text-decoration: underline;
+        text-underline-offset: 1em;
+    }
+    .filter-button-group > a.inactive {
+        color: slategray;
+    }
+    .filter-button-group > a  {
+        font-size: 20px;
+    }
+</style>

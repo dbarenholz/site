@@ -11,4 +11,4 @@ You can also search the entire site in the top right.
 
 _Note: I will add to this over time._
 
-{% include notes.html %}
+{% include post_overview.html %}

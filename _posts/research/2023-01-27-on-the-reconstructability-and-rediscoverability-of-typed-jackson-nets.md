@@ -1,7 +1,7 @@
 ---
 title: "On the Reconstructability and Rediscoverability of Typed Jackson Nets"
 excerpt: "Paper introducing the reconstructability and rediscoverability properties of typed Jackson nets."
-tag: research
+category: Research
 ---
 
 My first paper!
