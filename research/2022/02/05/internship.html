@@ -1,0 +1,368 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Probabilistic models in process discovery • dbarenholz</title>
+<meta name="description" content="Results of an internship at the Process Analytics group in Eindhoven.">
+
+
+  <meta name="author" content="Daniël Barenholz">
+  
+  <meta property="article:author" content="Daniël Barenholz">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en">
+<meta property="og:site_name" content="dbarenholz">
+<meta property="og:title" content="Probabilistic models in process discovery">
+<meta property="og:url" content="https://www.dbarenholz.com/research/2022/02/05/internship.html">
+
+
+  <meta property="og:description" content="Results of an internship at the Process Analytics group in Eindhoven.">
+
+
+
+
+
+  <meta name="twitter:site" content="@dbarenholz">
+  <meta name="twitter:title" content="Probabilistic models in process discovery">
+  <meta name="twitter:description" content="Results of an internship at the Process Analytics group in Eindhoven.">
+  <meta name="twitter:url" content="https://www.dbarenholz.com/research/2022/02/05/internship.html">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+
+
+
+  <meta property="article:published_time" content="2022-02-05T00:00:00+01:00">
+
+
+
+
+
+
+<link rel="canonical" href="https://www.dbarenholz.com/research/2022/02/05/internship.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Daniël Barenholz",
+      "url": "https://www.dbarenholz.com/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <style>
+    .author__avatar img {
+        border: none !important;
+        border-radius: none !important;
+    }
+</style>
+  </head>
+
+  <body class="layout--archive">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          dbarenholz
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/" title="A more professional introduction to who I am.">About</a>
+            </li><li class="masthead__menu-item">
+              <a href="/notes/" title="A collection of notes that I've made.">Notes</a>
+            </li><li class="masthead__menu-item">
+              <a href="/contact/" title="Come say hi!">Contact</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <img src="/_assets/images/photo_small.jpg" alt="Daniël Barenholz" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Daniël Barenholz</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Music lover. Language geek. Process mining enthusiast. PhD @ UU.</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+
+      
+        
+          
+            <li><a href="https://www.uu.nl/staff/dbarenholz" rel="nofollow noopener noreferrer"><i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i><span class="label">UU.nl</span></a></li>
+          
+        
+          
+            <li><a href="https://github.com/dbarenholz" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://www.linkedin.com/in/dbarenholz/" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span></a></li>
+          
+        
+          
+            <li><a href="https://twitter.com/dbarenholz" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <div class="archive">
+    
+      <h1 id="page-title" class="page__title">Probabilistic models in process discovery</h1>
+    
+    <p>Read the complete report <a href="https://www.dbarenholz.com/_assets/docs/internship_pa/report.pdf">here</a>.
+<br />
+Find this item on <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=bFXkeeQAAAAJ&amp;citation_for_view=bFXkeeQAAAAJ:u5HHmVD_uO8C">google scholar</a>.</p>
+
+<h2 id="main-idea">Main Idea</h2>
+
+<p>Process discovery (PD) in process mining is the task of transforming an event log into an interpretable model, usually a Petri net.
+Traditionally this transformation is achieved in an algorithmic sense, for instance using the Alpha algorithm.
+The event log, which is the input data to the algorithm that solves PD, is noisy by definition and it stems from some unknown probability distribution \(p^*\).
+The problem with current algorithmic approaches is that they have a fundamental short-coming: there are a priori assumptions on said data, for instance that infrequent behaviour is irrelevant to the overall process.
+Using a machine learning based approach attempts to generalize away from such assumptions, as done in the thesis by D. Sommers where Graph Convolutional Networks (GCNs) were used to solve the PD problem.
+GCNs, however, do not consider learning \(p^*\), even though the probability distribution can be used to optimally solve classification and prediction tasks.
+As such, in this internship we want to investigate if using probabilistic models, which learn the distribution of the data, is useful in solving the process discovery problem.
+Ideally we want to have an explainable model, but we will settle with less explainable if in return we get superior performance.</p>
+
+  </div>
+</div>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Daniël Barenholz. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+<!-- Required for Mathjax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    jax: ["input/TeX", "output/HTML-CSS"],
+    tex2jax: {
+      inlineMath: [ ['$', '$'], ["\\(", "\\)"] ],
+      displayMath: [ ['$$', '$$'], ["\\[", "\\]"] ],
+      processEscapes: true,
+      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+    //,
+    //displayAlign: "left",
+    //displayIndent: "2em"
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML">
+</script>
+
+
+
+  </body>
+</html>
