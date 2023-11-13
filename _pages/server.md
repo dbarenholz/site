@@ -4,11 +4,11 @@ title: Server
 toc: false
 ---
 
-I have my own server (it really is just another computer running ubuntu-server), and host my own services. 
+I have my own server (it really is just another computer running `ubuntu-server` as operating system), and host my own services. 
 This is a hobby of mine, and is always a work in progress.
 In the table below you can find the list of services I eventually want to run.
-If there is a link, then it is running; otherwise it is still on my todolist.
-Feel free to contact me if you have questions about how I host these services with `docker-compose`.
+If there is a link, then it is running; otherwise it is still on my list of things to setup.
+Feel free to contact me if you have questions about how I host these services with `docker-compose` and `nginx`.
 
 | Service                                                         | Usage                                  | Link                                           |
 |-----------------------------------------------------------------|----------------------------------------|------------------------------------------------|
@@ -17,7 +17,6 @@ Feel free to contact me if you have questions about how I host these services wi
 | [cal.com](https://github.com/calcom/cal.com)                    | Scheduling software                    |                                                |
 | [calibre-web](https://github.com/janeczku/calibre-web)          | Viewing e-books                        | [here](https://dbarenholz.hopto.org/library)   |
 | [code-server](https://github.com/coder/code-server)             | VS-code in the browser                 |                                                |
-| [dashy](https://github.com/Lissy93/dashy)                       | Services homepage                      | [here](https://dbarenholz.hopto.org/)          |
 | [gitea](https://github.com/go-gitea/gitea)                      | Git server                             |                                                |
 | [grafana](https://github.com/grafana/grafana)                   | System monitoring                      |                                                |
 | [hrconvert2](https://github.com/zelon88/HRConvert2)             | Converts various file formats          |                                                |

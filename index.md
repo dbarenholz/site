@@ -16,7 +16,7 @@ Go to the [about]({{ site.url }}/about) section.
 
 Besides working, I can often be found behind my piano.
 I truly love [music]({{ site.url}}/music), from listening to it to trying to transcribe and to arrange.
-Once in a blue moon I may also [code]({{ site.url}}/code) some tools, either for a community or for myself.
+Once in a blue moon I may also [code](https://github.com/dbarenholz) some tools, either for a community or for myself.
 I also have my own [server]({{ site.url }}/server) with a bunch of fun tools running.
 
 Questions? Want to talk? See a mistake somewhere?
