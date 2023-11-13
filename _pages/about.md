@@ -8,8 +8,7 @@ It does not matter if it is a new technological framework or developing an impro
 For a slightly more professional (and complete) explanation of who I am, visit [my linkedin](https://www.linkedin.com/in/dbarenholz/).
 
 _Note: Any files (i.e. PDFs or slides) that I share are mine, unless otherwise stated._
-_If you wish to use them for commercial purposes or education, please contact me._
-_Otherwise a link to my site suffices._
+_If you wish to use them for any purpose, commercial or otherwise, please contact me._
 
 ## Current position
 
