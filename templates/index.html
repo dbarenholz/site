@@ -1,0 +1,38 @@
+{# This is the home page template with an intro and recent blog posts. #}
+{% extends "base.html" %}
+
+{% block content %}
+  {% set blog_section_name = config.extra.blog_section | default(value="blog") %}
+  {% set blog = get_section(path=blog_section_name ~ "/_index.md") %}
+
+  <section>
+    {% if section and section.content %}
+      <div>
+        {% set toc_marker = "<p>[TOC]</p>" %}
+        {% if section.content is containing(toc_marker) %}
+          {% include "partials/toc.html" %}
+        {% endif %}
+        {{ section.content | replace(from=toc_marker, to="") | safe }}
+      </div>
+    {% endif %}
+  </section>
+
+  <section>
+    <div>
+      <h2 id="recent-posts">
+        <a aria-label="Anchor link for: recent-posts" class="zola-anchor" href="#recent-posts">Recent Posts</a>
+      </h2>
+      <a href="{{ blog.permalink }}">View all</a>
+    </div>
+    {% if blog.pages | length > 0 %}
+      <div class="posts">
+        {% for post in blog.pages | sort(attribute="date") | reverse | slice(end=4) %}
+          {% set_global post_item = post %}
+          {% include "partials/post_card.html" %}
+        {% endfor %}
+      </div>
+    {% else %}
+      <p>No blog posts yet.</p>
+    {% endif %}
+  </section>
+{% endblock content %}

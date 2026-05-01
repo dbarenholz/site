@@ -1,0 +1,50 @@
+base_url = "https://dbarenholz.com"    # What's the site
+title = "dbarenholz"             # Title in feed
+description = "Personal site. All opinions are my own." # and its description
+default_language = "en"                # Default is EN -- will provide NL and JP translations
+compile_sass = true                    # I'm using SCSS.
+minify_html = true                     # Less space, more better
+author = "dbarenholz"                  # I'm the only author, set as default
+build_search_index = false             # TODO: might be useful for posts themselves?
+theme = "halcyon"                      # my own theme, as submodule
+
+taxonomies = [
+    { name = "tags", feed = true },
+]
+
+[markdown]
+render_emoji = true                    # gives me :sparkles: and :eyes:
+external_links_class = "external-link" # so I can style them
+external_links_target_blank = true     # open in new tab
+smart_punctuation = false              # explicitly set to false, even if default
+definition_list = false                # idem
+github_alerts = true                   # I will be using these most likely
+insert_anchor_links = "heading"        # enable linking to headers
+
+[markdown.highlighting]
+error_on_missing_language = true       # error if I'm using a lang it doesn't understand
+style = "class"                        # don't use ugly inline <style>
+theme = "catppuccin-mocha" 
+
+# Dutch translations
+[languages.nl]
+# title = ""
+description = "Persoonlijke site. Meningen zijn van mijzelf."
+
+[languages.jp]
+description = "個人サイトです。意見はすべて私個人のものです。"
+
+
+# If I want to use {{ config.extra.THING }}, I should add it here
+[extra]
+default_theme = "dark"
+blog_section = "notes"
+show_reading_time = true
+nav = [
+    # Add as many entries here as you want
+    # if you add path ="/foo/", we expect a "content/foo.md" file
+    { name = "About", path = "/about/" },
+    { name = "Notes", path = "/notes/" },
+    { name = "Contact", path = "/contact/" }
+]
+
