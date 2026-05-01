@@ -4,10 +4,5 @@ My personal site, created using [Zola](https://www.getzola.org) (previous: [Jeky
 
 ## Status
 
-- I have a theme..?
-- Should port all content to this new site.
-
-## Notes
-
-- Use `zola check` in CI to verify pages run; add `--drafts` to also check drafts.
-- Use `RUST_LOG=debug` for CI to always see all logs (useful if things break).
+- Theme has been made -- see [the demo site](https://dbarenholz.github.io/halcyon-zola/).
+- I believe most content has been migrated over.

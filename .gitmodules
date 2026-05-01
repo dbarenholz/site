@@ -1,6 +1,3 @@
-[submodule "themes/halcyon-zola"]
-	path = themes/halcyon-zola
-	url = https://github.com/dbarenholz/halcyon-zola
 [submodule "themes/halcyon"]
 	path = themes/halcyon
 	url = https://github.com/dbarenholz/halcyon-zola
