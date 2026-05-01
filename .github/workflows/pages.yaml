@@ -29,6 +29,8 @@ jobs:
         with:
           # this is the version I have locally
           zola_version: v0.22.1 
+          # Set github pages site as base URL, overriding configuration
+          build_flags: "-u https://dbarenholz.github.io/site/"
 
   deploy:
     runs-on: ubuntu-latest
