@@ -1,0 +1,47 @@
+<style>
+  /* inline styles for the form */
+  form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  form label {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  form input, form textarea {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid var(--halcyon-accent);
+    border-radius: 4px;
+  }
+
+  form button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: light-dark(var(--halcyon-base-grey-light), var(--halcyon-base-blue-03));
+    color: var(--halcyon-palette-lime);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+</style>
+
+<div class="form-container">
+  <form action="https://formspree.io/f/xwkykyar" method="POST">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Your name..." required />
+
+    <label for="mail">Email</label>
+    <input type="email" id="email" name="email" placeholder="Your email..." required />
+
+    <label for="subject">Subject</label>
+    <input type="text" id="subject" name="subject" placeholder="Message subject..." required />
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" placeholder="What do you want to tell me?" style="height: 200px"
+      required></textarea>
+
+    <button type="submit">Send!</button>
+  </form>
+</div>

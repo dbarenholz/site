@@ -32,7 +32,7 @@ I wrote my thesis at Vanderlande, a company that (amongst others) builds complet
 The project was focused on improving their STOREPICK evolution, a product that helps optimize the picking process in warehouses.
 The project was exploratory in nature, as it was unclear if a data-driven approach to improvement was possible.
 The goal: find out if by modelling the process and data with a graph database ([Neo4j](https://neo4j.com/product/neo4j-graph-database/)) we can find interesting patterns.
-More details [on the thesis page](/notes/thesis.md).
+More details [on the thesis page](@/notes/thesis.md).
 
 ### Resarch Intern @ Process Analytics Lab, TU/e
 
@@ -41,7 +41,7 @@ I looked into combining the fields of process discovery and probabilistic models
 This was _very_ exploratory in nature, consisting of a lot of reading and creativity.
 Quite a few different directions for future work came out of this internship.
 As my first real research experience, it was a great learning opportunity.
-More details can be found [on the internship page](/notes/internship.md).
+More details can be found [on the internship page](@/notes/internship.md).
 
 ### Bug Hunter Extraordinaire
 
@@ -58,7 +58,7 @@ I have an MSc titled _Data Science in Engineering_, a specialised mastertrack wi
 I have a BSc in Computer science, also done at the TU/e. My bachelor was deliberately less about specific topics -- instead embracing a wide variety of subjects -- to give me a good overview (at the time) of the field, and provide a good base for my masters. As opposed to a thesis, at the time of studying TU/e had decided to do a _bachelor project_, which was a group project where we had to build software for a real client.
 
 > [!TIP]
-> **Honors Academy**: During my bachelor I was enrolled in the _honors academy_ doing Competitive Programming and Problem Solving (CPPS). For an explanation on CPPS, see [here](/notes/cpps.md). My (ancient) cheatsheet is [also available](/honors/cheatsheet.docx). I gave a talk about _subset dynamic programming_, in case you want to look at pretty [slides](/honors/slides.pptx) or read an old [report](/honors/report.pdf).
+> **Honors Academy**: During my bachelor I was enrolled in the _honors academy_ doing Competitive Programming and Problem Solving (CPPS). For an explanation on CPPS, see [here](@/notes/cpps.md). My (ancient) cheatsheet is {{ file(label="also available" file="/docs/honors/cheatsheet.docx") }}. I gave a talk about _subset dynamic programming_, in case you want to look at pretty {{ file(label="slides" file="/docs/honors/slides.pptx") }} or read an old {{ file(label="report" file="/docs/honors/report.pdf") }}.
 
 ## Volunteer work
 
