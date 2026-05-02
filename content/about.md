@@ -5,8 +5,10 @@ description: "What I've done professionally, and what I'm up to now."
 
 [TOC]
 
-I am an innovation-driven, hardworking person, always looking to improve.
-It does not matter if it is a new technological framework or developing an improvement upon existing code, I am always up for the task if I can learn something.
+I am an ever-curious, hardworking person, always looking to improve.
+It does not matter if I'm focusing on the big picture, or working on nitty gritty details, I always use the right tool for the job to deliver high-quality (and maintainable!) results.
+Regardless of the work being a full migration to a new technological framework or just developing a new feature in a legacy codebase, I'm always up for the task if I can learn something.
+With my passion for sharing knowledge, I hope to enhance both personal and team success.
 For a slightly more professional (and complete) explanation of who I am, visit my [LinkedIn profile](https://www.linkedin.com/in/dbarenholz/).
 
 > [!CAUTION]
@@ -14,9 +16,15 @@ For a slightly more professional (and complete) explanation of who I am, visit m
 
 ## Experience
 
-<!-- TODO: other experience, e.g. Sig's thing? -->
+### Software Engineer @ The Tenebrous Dragon
+
+{{ tags(tags=["Google Apps Script", "Google Sheets", "Google Docs"]) }}
+
+A while back I helped a friend whose company name is _The Tenebrous Dragon_ (not my choice!) with a project to automate some of their internal quote and invoice creation processes. There was an attempt made in a google sheet, and I completely polished it to something usable. So far, no requests for changes, so it's been working well.
 
 ### PhD @ Utrecht University
+
+{{ tags(tags=["Research", "Petri Nets", "Logic", "Proofs", "Java", "Teaching", "LaTeX", "Git"]) }}
 
 During my PhD I look into the _interplay between data and processes_. An approachable example of what this means can be found on [this page](@/notes/phd-topic.md). In a nutshell, I look into how we can work with data objects using a process-aware hat, and doing so from a theoretical/mathematical point of view.
 
@@ -28,6 +36,8 @@ During my PhD I look into the _interplay between data and processes_. An approac
 
 ### Thesis @ Vanderlande
 
+{{ tags(tags=["Python", "Databricks", "Time Drift", "Neo4J"]) }}
+
 I wrote my thesis at Vanderlande, a company that (amongst others) builds complete solutions for warehouse automation.
 The project was focused on improving their STOREPICK evolution, a product that helps optimize the picking process in warehouses.
 The project was exploratory in nature, as it was unclear if a data-driven approach to improvement was possible.
@@ -35,6 +45,8 @@ The goal: find out if by modelling the process and data with a graph database ([
 More details [on the thesis page](@/notes/thesis.md).
 
 ### Resarch Intern @ Process Analytics Lab, TU/e
+
+{{ tags(tags=["Research", "Probability", "Process Science", "Python", "Algorithms"]) }}
 
 During my masters, I did an internship at the [Process Analytics lab at TU/e](https://pa.win.tue.nl/).
 I looked into combining the fields of process discovery and probabilistic models.
@@ -44,6 +56,8 @@ As my first real research experience, it was a great learning opportunity.
 More details can be found [on the internship page](@/notes/internship.md).
 
 ### Bug Hunter Extraordinaire
+
+{{ tags(tags=["XML", "JavaScript", "PHP", "Kendo UI", "Frontend"]) }}
 
 The title aside, I have worked on a company's internal inventory management system, built using [Kendo UI](https://www.telerik.com/kendo-ui), the `php` language, and [SOAP](https://en.wikipedia.org/wiki/SOAP) (where you had a bunch of `xml` files, as opposed to `json`). During my time there, I was primarily focused on bughunting the existing codebase. By identifying and fixing all bugs I could find, I've left their inhouse inventory management system in a much better (read: functional, as opposed to broken) state than it was before.
 
@@ -64,4 +78,12 @@ I have a BSc in Computer science, also done at the TU/e. My bachelor was deliber
 
 - I am currently a volunteer at [handjehelpen](https://www.handjehelpen.nl/) (page in Dutch), a non-profit that connects people with needs to volunteers. I'm privileged to go biking on weekly basis with a now friend of mine, and aim to continue doing so for as long as I can.
 - Although for a brief period of time, I volunteered at [Together with Classical](https://www.togetherwithclassical.org/), a charity that stands for bringing classical music closer to people.
-- I was the secretary of the Japanese culture association [Kinjin](https://kinjin.nl/boards/#:~:text=Daniel%20Barenholz) during academic year 2017-2018, responsible for all communication and administration.
+- I was the secretary of the Japanese culture association [Kinjin](https://kinjin.nl/boards/#:~:text=Daniel%20Barenholz) during academic year 2017-2018, responsible for all communication and administration. During this period I was actively helping events at various Dutch anime conventions such as [animecon](https://animecon.nl/en/) and [abunai](https://abunaicon.nl/).
+- I was a committee member of the Kinjin Lustrum committee during above academic year. I helped organize (amongst others) a sushi workship with [Chef Taji](https://www.tajithechef.com/sushi/sushi-workshop/), a movie viewing of _Kimi no Na wa_ (Your Name) at [De Zwarte Doos](https://www.dezwartedoos.nl/), and a matsuri (festival) with 200+ visitors.
+
+## Certificates
+
+- **TOEFL iBT (115/120)**; an English language proficiency exam testing reading, speaking, and listening skills. While technically no longer valid for e.g. university applications, I still consider this a nice piece of evidence for my English proficiency.
+- **Teacher Training for PhD Candidates**; an intensive weekly course on how to design all things education. Taught by [Freudenthal Institute](https://www.uu.nl/en/research/freudenthal-institute). See this as evidence for my teaching skills.
+- **Responsible Conduct of Research**; a course on the ethical and responsible conduct of research. Taught by the [Graduate School of Life Sciences](https://www.uu.nl/en/education/graduate-school-of-life-sciences/phd/starting-your-phd/responsibilities-of-phd-candidates/responsible-conduct-of-research) at Utrecht University. See this as evidence for my research ethics and integrity.
+- **Blussen met kleine blustoestellen**; a course on how to use small fire extinguishers. Taught by [Crisiscom](https://www.crisicom.nl/), certified by [nibhv](https://www.nibhv.nl/). I hope to never make use of this.
