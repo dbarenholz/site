@@ -6,7 +6,7 @@ taxonomies:
     tags: ["internship", "python"]
 ---
 
-> Find the complete report [here](/docs/internship_pa/report.pdf) (in Dutch).
+> Find the complete report {{ file(label="here" file="/docs/internship_pa/report.pdf") }}.
 > Find the corresponding archived code on [GitHub](https://github.com/dbarenholz/integer_sequence).
 
 ## Abstract

@@ -6,7 +6,7 @@ taxonomies:
     tags: ["thesis", "neo4j", "python"]
 ---
 
-> Find the complete thesis [here](/docs/thesis/thesis.pdf).
+> Find the complete thesis {{ file(label="here" file="/docs/thesis/thesis.pdf") }}.
 > Find this work on [google scholar](https://scholar.google.com/scholar?oi=bibs&hl=en&cluster=14011193794507456609), or on [research.tue.nl](https://research.tue.nl/en/studentTheses/knowledge-graphs-for-improving-robot-operations-in-logistics/).
 
 ## Abstract
