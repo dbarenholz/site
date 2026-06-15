@@ -1,0 +1,17 @@
+name: test-ci-connection
+
+when:
+  - event: manual
+
+steps:
+  - name: test
+    image: alpine
+    commands:
+      - echo "Hello from Crow CI!"
+      - echo "${CI_REPO}"
+  - name: ping pi
+    image: alpine
+    commands: |
+      nc -zv 192.168.2.200 22
+
+
