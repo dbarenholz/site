@@ -1,0 +1,30 @@
+# builds the site, and deploys to own infra
+# the github pages build is handled with .github/workflow/pages.yaml
+name: Build & Deploy
+
+when:
+  - event: manual
+  - branch: main
+    event: push
+
+steps:
+  - name: build
+    # note: distroless image, so no /bin/sh; should override entrypoint
+    image: ghcr.io/getzola/zola:v0.22.1
+    entrypoint: ["zola", "build"]
+
+  - name: deploy
+    depends_on: [build]
+    image: appleboy/drone-scp
+    settings:
+      # pi lives at this IP; local, only accessible by crow and VPN'ed devices
+      host: 192.168.2.200
+      username: dan
+      key:
+        from_secret: ssh_private_key
+      port: 22
+      source:
+        # zola builds to public
+        - public/*
+      target: /home/dan/site/
+
