@@ -16,6 +16,14 @@ For a slightly more professional (and complete) explanation of who I am, visit m
 
 ## Experience
 
+### Fullstack Software Engineer @ Undisclosed (NDA)
+
+{{ tags(tags=["Vue", "Java", "Algorithms", "CI/CD"]) }}
+
+A super cool project that I can't tell you about.
+I've gotten permission to share that I've worked on a few things, namely: maintaining the Atlassian stack used, obtaining and documenting the requirements for the application (my effort), and subsequently designing, implementing, and testing the application (team effort).
+Calling this a "team lead" role is a bit over-the-top, but still technically correct.
+
 ### Software Engineer @ The Tenebrous Dragon
 
 {{ tags(tags=["Google Apps Script", "Google Sheets", "Google Docs"]) }}
