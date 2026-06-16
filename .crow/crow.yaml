@@ -25,6 +25,8 @@ steps:
       port: 22
       source:
         # zola builds to public
-        - public/*
-      target: /home/dan/site/
+        - public/**/*
+      # drone recreates source dir, don't want that
+      strip_components: 1
+      target: /home/dan/site/dbarenholz.com/
 
