@@ -1,3 +1,4 @@
 [submodule "themes/halcyon"]
 	path = themes/halcyon
 	url = https://github.com/dbarenholz/halcyon-zola
+	branch = main
