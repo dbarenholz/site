@@ -1,13 +1,13 @@
 ---
-title: "There and back again: on the reconstructability and rediscoverability of typed Jackson nets"
-description: "Paper on certain properties of typed Jackson nets."
+title: "First paper!"
+description: "On the reconstructability and rediscoverability of typed Jackson nets."
 date: "2023-03-17"
 taxonomies:
     tags: ["research", "published"]
 ---
 
 > Preprint on [arxiv](https://arxiv.org/abs/2303.10039).
-> Published by [Springer](https://link.springer.com/chapter/10.1007/978-3-031-33620-1_3). 
+> Published by [Springer](https://link.springer.com/chapter/10.1007/978-3-031-33620-1_3).
 > Find this work on [google scholar](https://scholar.google.com/scholar?cluster=12998279896290961604&hl=en&as_sdt=0,5), or on [research-portal.uu.nl](https://research-portal.uu.nl/en/publications/there-and-back-again-on-the-reconstructability-and-rediscoverabil/)
 
 ## Abstract

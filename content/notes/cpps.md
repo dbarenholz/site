@@ -1,6 +1,6 @@
 ---
-title: Competitive Programming and Problem Solving
-description: "Primer on what competitive programming is."
+title: "Competitive Programming and Problem Solving"
+description: "Primer on competitive programming."
 date: "2018-06-03"
 taxonomies:
     tags: ["honors"]

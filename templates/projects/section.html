@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <section>
+    <header> <h1>{{ section.title }}</h1> </header>
+    {% if section.generate_feed %}
+      <a href="{{ section.permalink }}atom.xml">Atom Feed</a>
+    {% endif %}
+
+    <div class="posts">
+      {% if paginator %}
+        {% for post in paginator.pages %}
+          {% set_global post_item = post %}
+          {% include "partials/post_card.html" %}
+        {% endfor %}
+      {% else %}
+        {% for post in section.pages %}
+          {% set_global post_item = post %}
+          {% include "partials/post_card.html" %}
+        {% endfor %}
+      {% endif %}
+    </div>
+
+    {% if paginator %}
+      {% include "partials/pagination.html" %}
+    {% endif %}
+  </section>
+{% endblock content %}

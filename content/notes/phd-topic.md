@@ -1,6 +1,6 @@
 ---
 title: "Interplay between data and processes"
-description: "Brief and approachable introduction to my PhD topic."
+description: "Approachable introduction to my PhD topic: the interplay between data and processes."
 date: "2023-05-06"
 taxonomies:
   tags: ["research"]
@@ -26,7 +26,7 @@ No longer simple, and this is only to make sure things happen _correctly_.
 
 > Usually, we're not just interested in correct execution of a process, but we want to gain insight into the process itself.
 > The following questions are common:
-> 
+>
 > 1. How many different paths are there through the process? How do they differ? How long do they take? Why?
 > 2. Which products are being bought? Are there patterns we can discover?
 > 3. Can we somehow improve the process?

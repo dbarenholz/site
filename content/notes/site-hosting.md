@@ -1,5 +1,5 @@
 ---
-title: "Host Securely, with Pi!"
+title: "Site Hosting"
 description: "How I host my own site in an isolated network -- and what not to do."
 date: "2026-05-04"
 taxonomies:
@@ -92,7 +92,7 @@ Below three-liner modifies it so that only primes of bit size larger than 3071 a
 
 ```bash
 cp /etc/ssh/moduli /etc/ssh/moduli.bak
-awk '$5 >= 3071' /etc/ssh/moduli > /etc/ssh/moduli.safe  
+awk '$5 >= 3071' /etc/ssh/moduli > /etc/ssh/moduli.safe
 mv /etc/ssh/moduli.safe /etc/ssh/moduli
 ```
 
@@ -121,7 +121,7 @@ Finally, tell `sshd` that only users in the just created `ssh` group are allowed
 
 ```ssh-config
 ### 2026-05-04
-### Only allow users in the ssh group to log in 
+### Only allow users in the ssh group to log in
 
 AllowGroups ssh
 ```

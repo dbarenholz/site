@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {% set blog_section_name = config.extra.blog_section | default(value="blog") %}
+  {% set blog = get_section(path=blog_section_name ~ "/_index.md") %}
+
+  <article>
+    <p><a href="{{ blog.permalink }}">← all notes</a></p>
+    <header>
+      <h1>{{ page.title }}</h1>
+      <div class="post-subtitle">
+        <div class="post-subtitle__meta">
+          {% if page.date %}
+            <i data-lucide="calendar"></i>
+            <time datetime="{{ page.date }}">{{ page.date | date(format="%B %d, %Y") }}</time>
+          {% endif %}
+
+          {% if config.extra.show_reading_time | default(value=true) %}
+            {% if page.date %}<span> • </span>{% endif %}
+            <i data-lucide="clock"></i>
+            <span>{{ page.reading_time }} min read</span>
+          {% endif %}
+        </div>
+
+        {% set_global tags = page.taxonomies["tags"] %}
+        {% if tags | length > 0 %}
+          <div class="post-subtitle__tags">
+            <span class="post-subtitle__tags-separator"> • </span>
+            <i data-lucide="tag"></i>
+            {% include "partials/tags.html" %}
+          </div>
+        {% endif %}
+      </div>
+    </header>
+
+    {% set toc_marker = "<p>[TOC]</p>" %}
+    {% if page.content is containing(toc_marker) %}
+      {% include "partials/toc.html" %}
+    {% endif %}
+    {{ page.content | replace(from=toc_marker, to="") | safe }}
+  </article>
+{% endblock content %}

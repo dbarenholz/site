@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {% set blog_section_name = "projects" %}
+  {% set blog = get_section(path=blog_section_name ~ "/_index.md") %}
+
+  <article>
+    <p><a href="{{ blog.permalink }}">← all projects</a></p>
+    <header>
+      <h1>{{ page.title }}</h1>
+      <div class="post-subtitle">
+        {% set_global tags = page.taxonomies["tags"] %}
+        {% if tags | length > 0 %}
+          <div class="post-subtitle__tags">
+            <i data-lucide="tag"></i>
+            {% include "partials/tags.html" %}
+          </div>
+        {% endif %}
+      </div>
+    </header>
+
+    {% set toc_marker = "<p>[TOC]</p>" %}
+    {% if page.content is containing(toc_marker) %}
+      {% include "partials/toc.html" %}
+    {% endif %}
+    {{ page.content | replace(from=toc_marker, to="") | safe }}
+  </article>
+{% endblock content %}
